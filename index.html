@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,408 +6,235 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="59J7ns3Q6uz7RjZUHzb_OTGs_2LLj4H20L8ytsJSw6U">
 <title>Blue Star Home Services & Painting Solutions</title>
-<meta name="description" content="Blue Star Home Services & Painting Solutions offers painting, electrical, plumbing, home cleaning, toilet cleaning, water tank cleaning and sofa cleaning in Tirunelveli, Tenkasi, Madurai, Kanyakumari and Thoothukudi.">
-
+<meta name="description" content="Professional painting, electrical, plumbing, home cleaning, toilet cleaning, water tank cleaning and sofa cleaning services in Tirunelveli, Tenkasi, Madurai, Kanyakumari and Thoothukudi.">
 <style>
-:root {
-  --navy:#10233f;
-  --blue:#1768a8;
-  --gold:#f2b84b;
-  --light:#f4f7fb;
-  --dark:#172333;
-}
-* { box-sizing:border-box; }
-html { scroll-behavior:smooth; }
-body {
-  margin:0;
-  font-family:Arial, sans-serif;
-  color:var(--dark);
-  background:white;
-  line-height:1.6;
-}
-header {
-  background:var(--navy);
-  color:white;
-  padding:18px 5%;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  flex-wrap:wrap;
-  gap:12px;
-}
-.logo { font-size:21px; font-weight:bold; }
-.logo span { color:var(--gold); }
-nav { display:flex; flex-wrap:wrap; gap:15px; }
-nav a { color:white; text-decoration:none; font-size:14px; }
-.hero {
-  background:linear-gradient(120deg,#10233f,#1768a8);
-  color:white;
-  text-align:center;
-  padding:75px 20px;
-}
-.hero h1 { font-size:36px; margin:0 0 12px; }
-.hero p { max-width:650px; margin:0 auto 24px; }
-.btn {
-  display:inline-block;
-  background:var(--gold);
-  color:#172333;
-  padding:12px 22px;
-  border-radius:7px;
-  text-decoration:none;
-  font-weight:bold;
-  border:0;
-  cursor:pointer;
-  margin:5px;
-}
-.btn.secondary { background:white; color:var(--navy); }
-section { padding:55px 6%; }
-.section-title { text-align:center; margin-bottom:30px; }
-.section-title h2 { color:var(--navy); font-size:29px; margin-bottom:5px; }
-.services {
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
-  gap:18px;
-}
-.service-card {
-  background:white;
-  border:1px solid #e2e8f0;
-  border-radius:13px;
-  padding:22px;
-  text-align:center;
-  box-shadow:0 5px 18px rgba(0,0,0,.06);
-}
-.service-card .emoji { font-size:39px; }
-.service-card h3 { color:var(--navy); margin:8px 0; }
-.service-card p { font-size:14px; }
-.service-card a { color:#1768a8; font-weight:bold; text-decoration:none; }
-.details { background:var(--light); }
-.service-detail {
-  background:white;
-  padding:25px;
-  border-radius:12px;
-  margin:20px auto;
-  max-width:900px;
-  scroll-margin-top:20px;
-}
-.service-detail h3 { color:var(--navy); }
-.gallery {
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-  gap:12px;
-  margin:18px 0;
-}
-.photo-placeholder {
-  min-height:125px;
-  border-radius:9px;
-  background:linear-gradient(135deg,#e8eef6,#d3e2f2);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  padding:12px;
-  color:#42536a;
-  font-size:13px;
-}
-.about {
-  max-width:850px;
-  margin:auto;
-  text-align:center;
-}
-.areas {
-  background:var(--navy);
-  color:white;
-  text-align:center;
-}
-.areas h2 { color:var(--gold); }
-.booking {
-  background:var(--light);
-}
-.booking-form {
-  max-width:600px;
-  margin:auto;
-  background:white;
-  padding:25px;
-  border-radius:12px;
-  box-shadow:0 5px 18px rgba(0,0,0,.06);
-}
-.booking-form label {
-  display:block;
-  font-weight:bold;
-  margin:12px 0 5px;
-}
-.booking-form input,
-.booking-form select,
-.booking-form textarea {
-  width:100%;
-  padding:12px;
-  border:1px solid #ccd5df;
-  border-radius:7px;
-  font:inherit;
-}
-.booking-form button { width:100%; margin:18px 0 0; }
-footer {
-  background:#0b192c;
-  color:white;
-  text-align:center;
-  padding:28px 15px;
-}
-footer a { color:var(--gold); text-decoration:none; }
-@media(max-width:600px) {
-  .hero h1 { font-size:28px; }
-  header { justify-content:center; text-align:center; }
-  nav { justify-content:center; }
-  section { padding:42px 5%; }
-}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;color:#172333;line-height:1.6}
+header{background:#10233f;color:white;padding:18px 5%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.logo{font-size:21px;font-weight:bold}
+.logo span{color:#f2b84b}
+nav{display:flex;flex-wrap:wrap;gap:14px}
+nav a{color:white;text-decoration:none;font-size:14px}
+.hero{background:linear-gradient(120deg,#10233f,#1768a8);color:white;text-align:center;padding:75px 20px}
+.hero h1{font-size:36px;margin:0 0 12px}
+.hero p{max-width:650px;margin:0 auto 20px}
+.btn{display:inline-block;background:#f2b84b;color:#172333;padding:12px 22px;border-radius:7px;text-decoration:none;font-weight:bold;border:0;cursor:pointer;margin:5px}
+.btn.secondary{background:white;color:#10233f}
+section{padding:50px 6%}
+.section-title{text-align:center;margin-bottom:30px}
+.section-title h2{color:#10233f;font-size:29px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.service-card{background:white;border:1px solid #e2e8f0;border-radius:13px;padding:22px;text-align:center;box-shadow:0 5px 18px #0000000d}
+.emoji{font-size:39px}
+.service-card h3{color:#10233f}
+.service-card p{font-size:14px}
+.service-card a{color:#1768a8;font-weight:bold;text-decoration:none}
+.details,.booking{background:#f4f7fb}
+.service-detail{background:white;padding:24px;border-radius:12px;margin:20px auto;max-width:900px;scroll-margin-top:20px}
+.service-detail h3{color:#10233f}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:18px 0}
+.photo-placeholder{min-height:125px;border-radius:9px;background:linear-gradient(135deg,#e8eef6,#d3e2f2);display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;color:#42536a;font-size:13px}
+.about{text-align:center;max-width:850px;margin:auto}
+.areas{background:#10233f;color:white;text-align:center}
+.areas h2{color:#f2b84b}
+.booking-form{max-width:600px;margin:auto;background:white;padding:25px;border-radius:12px;box-shadow:0 5px 18px #0000000d}
+.booking-form label{display:block;font-weight:bold;margin:12px 0 5px}
+.booking-form input,.booking-form select,.booking-form textarea{width:100%;padding:12px;border:1px solid #ccd5df;border-radius:7px;font:inherit}
+.booking-form button{width:100%;margin:18px 0 0}
+footer{background:#0b192c;color:white;text-align:center;padding:28px 15px}
+footer a{color:#f2b84b;text-decoration:none}
+@media(max-width:600px){.hero h1{font-size:28px}header{justify-content:center;text-align:center}nav{justify-content:center}section{padding:40px 5%}}
 </style>
 </head>
-
 <body>
 
 <header>
-  <div class="logo">BLUE STAR <span>HOME SERVICES</span></div>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#services">Services</a>
-    <a href="#about">About</a>
-    <a href="#booking">Book Now</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<div class="logo">BLUE STAR <span>HOME SERVICES</span></div>
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#booking">Book Now</a>
+<a href="#contact">Contact</a>
+</nav>
 </header>
 
 <div class="hero" id="home">
-  <h1>Blue Star Home Services & Painting Solutions</h1>
-  <p>Professional Home Services. Quality Work. Trusted Service.</p>
-  <p>Painting | Electrical | Plumbing | Cleaning | Sofa Cleaning</p>
-  <a class="btn" href="#services">Explore Services</a>
-  <a class="btn secondary" href="https://wa.me/916381341955">WhatsApp Us</a>
+<h1>Blue Star Home Services & Painting Solutions</h1>
+<p>Professional Home Services. Quality Work. Trusted Service.</p>
+<p>Painting | Electrical | Plumbing | Cleaning | Sofa Cleaning</p>
+<a class="btn" href="#services">Explore Services</a>
+<a class="btn secondary" href="https://wa.me/916381341955">WhatsApp Us</a>
 </div>
 
 <section id="services">
-  <div class="section-title">
-    <h2>Our Services</h2>
-    <p>Choose a service to view details and book.</p>
-  </div>
+<div class="section-title">
+<h2>Our Services</h2>
+<p>Choose a service to view details and book.</p>
+</div>
+<div class="services">
 
-  <div class="services">
-    <div class="service-card">
-      <div class="emoji">🎨</div>
-      <h3>Painting Service</h3>
-      <p>Interior, exterior and decorative painting.</p>
-      <a href="#painting">View Details →</a>
-    </div>
+<div class="service-card"><div class="emoji">🎨</div><h3>Painting Service</h3><p>Interior, exterior and decorative painting.</p><a href="#painting">View Details →</a></div>
 
-    <div class="service-card">
-      <div class="emoji">💡</div>
-      <h3>Electrical Service</h3>
-      <p>Home electrical repair and installation.</p>
-      <a href="#electrical">View Details →</a>
-    </div>
+<div class="service-card"><div class="emoji">💡</div><h3>Electrical Service</h3><p>Home electrical repair and installation.</p><a href="#electrical">View Details →</a></div>
 
-    <div class="service-card">
-      <div class="emoji">🚰</div>
-      <h3>Plumbing Service</h3>
-      <p>Home plumbing repairs and fittings.</p>
-      <a href="#plumbing">View Details →</a>
-    </div>
+<div class="service-card"><div class="emoji">🚰</div><h3>Plumbing Service</h3><p>Home plumbing repairs and fittings.</p><a href="#plumbing">View Details →</a></div>
 
-    <div class="service-card">
-      <div class="emoji">🧹</div>
-      <h3>Home Cleaning</h3>
-      <p>Deep cleaning and housekeeping.</p>
-      <a href="#cleaning">View Details →</a>
-    </div>
+<div class="service-card"><div class="emoji">🧹</div><h3>Home Cleaning</h3><p>Deep cleaning and housekeeping.</p><a href="#cleaning">View Details →</a></div>
 
-    <div class="service-card">
-      <div class="emoji">🚿</div>
-      <h3>Toilet Cleaning</h3>
-      <p>Bathroom, toilet and tile cleaning.</p>
-      <a href="#toilet">View Details →</a>
-    </div>
+<div class="service-card"><div class="emoji">🚿</div><h3>Toilet Cleaning</h3><p>Bathroom, toilet and tile cleaning.</p><a href="#toilet">View Details →</a></div>
 
-    <div class="service-card">
-      <div class="emoji">💧</div>
-      <h3>Water Tank Cleaning</h3>
-      <p>Water tank cleaning services.</p>
-      <a href="#tank">View Details →</a>
-    </div>
+<div class="service-card"><div class="emoji">💧</div><h3>Water Tank Cleaning</h3><p>Water tank cleaning services.</p><a href="#tank">View Details →</a></div>
 
-    <div class="service-card">
-      <div class="emoji">🛋️</div>
-      <h3>Sofa Cleaning</h3>
-      <p>Sofa and upholstery cleaning services.</p>
-      <a href="#sofa">View Details →</a>
-    </div>
-  </div>
+<div class="service-card"><div class="emoji">🛋️</div><h3>Sofa Cleaning</h3><p>Sofa and upholstery cleaning services.</p><a href="#sofa">View Details →</a></div>
+
+</div>
 </section>
 
 <section class="details">
-  <div class="section-title">
-    <h2>Service Details & Gallery</h2>
-    <p>Explore our services and request a booking.</p>
-  </div>
+<div class="section-title">
+<h2>Service Details & Gallery</h2>
+<p>Explore our services and request a booking.</p>
+</div>
 
-  <div class="service-detail" id="painting">
-    <h3>🎨 Painting Service</h3>
-    <p>Interior painting, exterior painting, wall designs, decorative painting, whitewash and waterproofing.</p>
-    <div class="gallery">
-      <div class="photo-placeholder">Painting Work Photo 1</div>
-      <div class="photo-placeholder">Interior Design Photo 2</div>
-      <div class="photo-placeholder">Exterior Painting Photo 3</div>
-    </div>
-    <button class="btn" onclick="chooseService('Painting Service')">Book Now</button>
-  </div>
+<div class="service-detail" id="painting">
+<h3>🎨 Painting Service</h3>
+<p>Interior painting, exterior painting, wall designs, decorative painting, whitewash and waterproofing.</p>
+<div class="gallery"><div class="photo-placeholder">Painting Work Photo 1</div><div class="photo-placeholder">Interior Design Photo 2</div><div class="photo-placeholder">Exterior Painting Photo 3</div></div>
+<button class="btn" onclick="chooseService('Painting Service')">Book Now</button>
+</div>
 
-  <div class="service-detail" id="electrical">
-    <h3>💡 Electrical Service</h3>
-    <p>Home electrical repairs, light and fan installation, switches and other electrical work.</p>
-    <div class="gallery">
-      <div class="photo-placeholder">Electrical Work Photo 1</div>
-      <div class="photo-placeholder">Electrical Work Photo 2</div>
-    </div>
-    <button class="btn" onclick="chooseService('Electrical Service')">Book Now</button>
-  </div>
+<div class="service-detail" id="electrical">
+<h3>💡 Electrical Service</h3>
+<p>Home electrical repairs, light and fan installation, switches and other electrical work.</p>
+<div class="gallery"><div class="photo-placeholder">Electrical Work Photo 1</div><div class="photo-placeholder">Electrical Work Photo 2</div></div>
+<button class="btn" onclick="chooseService('Electrical Service')">Book Now</button>
+</div>
 
-  <div class="service-detail" id="plumbing">
-    <h3>🚰 Plumbing Service</h3>
-    <p>Tap repairs, pipe fittings, bathroom plumbing and household plumbing services.</p>
-    <div class="gallery">
-      <div class="photo-placeholder">Plumbing Work Photo 1</div>
-      <div class="photo-placeholder">Plumbing Work Photo 2</div>
-    </div>
-    <button class="btn" onclick="chooseService('Plumbing Service')">Book Now</button>
-  </div>
+<div class="service-detail" id="plumbing">
+<h3>🚰 Plumbing Service</h3>
+<p>Tap repairs, pipe fittings, bathroom plumbing and household plumbing services.</p>
+<div class="gallery"><div class="photo-placeholder">Plumbing Work Photo 1</div><div class="photo-placeholder">Plumbing Work Photo 2</div></div>
+<button class="btn" onclick="chooseService('Plumbing Service')">Book Now</button>
+</div>
 
-  <div class="service-detail" id="cleaning">
-    <h3>🧹 Home Cleaning</h3>
-    <p>Full house deep cleaning, floor cleaning, housekeeping, rooftop cleaning and home cleaning.</p>
-    <div class="gallery">
-      <div class="photo-placeholder">Home Cleaning Photo 1</div>
-      <div class="photo-placeholder">Home Cleaning Photo 2</div>
-    </div>
-    <button class="btn" onclick="chooseService('Home Cleaning')">Book Now</button>
-  </div>
+<div class="service-detail" id="cleaning">
+<h3>🧹 Home Cleaning</h3>
+<p>Full house deep cleaning, floor cleaning, housekeeping and rooftop cleaning.</p>
+<div class="gallery"><div class="photo-placeholder">Home Cleaning Photo 1</div><div class="photo-placeholder">Home Cleaning Photo 2</div></div>
+<button class="btn" onclick="chooseService('Home Cleaning')">Book Now</button>
+</div>
 
-  <div class="service-detail" id="toilet">
-    <h3>🚿 Toilet Cleaning</h3>
-    <p>Toilet, bathroom, tiles and washroom deep cleaning services.</p>
-    <div class="gallery">
-      <div class="photo-placeholder">Toilet Cleaning Photo 1</div>
-      <div class="photo-placeholder">Toilet Cleaning Photo 2</div>
-    </div>
-    <button class="btn" onclick="chooseService('Toilet Cleaning')">Book Now</button>
-  </div>
+<div class="service-detail" id="toilet">
+<h3>🚿 Toilet Cleaning</h3>
+<p>Toilet, bathroom, tiles and washroom deep cleaning services.</p>
+<div class="gallery"><div class="photo-placeholder">Toilet Cleaning Photo 1</div><div class="photo-placeholder">Toilet Cleaning Photo 2</div></div>
+<button class="btn" onclick="chooseService('Toilet Cleaning')">Book Now</button>
+</div>
 
-  <div class="service-detail" id="tank">
-    <h3>💧 Water Tank Cleaning</h3>
-    <p>Water tank cleaning for homes and buildings.</p>
-    <div class="gallery">
-      <div class="photo-placeholder">Tank Cleaning Photo 1</div>
-      <div class="photo-placeholder">Tank Cleaning Photo 2</div>
-    </div>
-    <button class="btn" onclick="chooseService('Water Tank Cleaning')">Book Now</button>
-  </div>
+<div class="service-detail" id="tank">
+<h3>💧 Water Tank Cleaning</h3>
+<p>Water tank cleaning for homes and buildings.</p>
+<div class="gallery"><div class="photo-placeholder">Tank Cleaning Photo 1</div><div class="photo-placeholder">Tank Cleaning Photo 2</div></div>
+<button class="btn" onclick="chooseService('Water Tank Cleaning')">Book Now</button>
+</div>
 
-  <div class="service-detail" id="sofa">
-    <h3>🛋️ Sofa Cleaning</h3>
-    <p>Sofa, cushion and upholstery cleaning to help remove everyday dust and dirt. Contact us for service details and an estimate.</p>
-    <div class="gallery">
-      <div class="photo-placeholder">Sofa Cleaning Photo 1</div>
-      <div class="photo-placeholder">Sofa Cleaning Photo 2</div>
-      <div class="photo-placeholder">Sofa Cleaning Photo 3</div>
-    </div>
-    <button class="btn" onclick="chooseService('Sofa Cleaning')">Book Now</button>
-  </div>
+<div class="service-detail" id="sofa">
+<h3>🛋️ Sofa Cleaning</h3>
+<p>Sofa, cushion and upholstery cleaning to help remove everyday dust and dirt. Contact us for service details and an estimate.</p>
+<div class="gallery"><div class="photo-placeholder">Sofa Cleaning Photo 1</div><div class="photo-placeholder">Sofa Cleaning Photo 2</div><div class="photo-placeholder">Sofa Cleaning Photo 3</div></div>
+<button class="btn" onclick="chooseService('Sofa Cleaning')">Book Now</button>
+</div>
 </section>
 
 <section id="about">
-  <div class="about">
-    <h2>About Blue Star Home Services</h2>
-    <p>Blue Star Home Services & Painting Solutions provides painting, cleaning, electrical, plumbing and other home maintenance services with a focus on quality and customer satisfaction.</p>
-  </div>
+<div class="about">
+<h2>About Blue Star Home Services</h2>
+<p>Blue Star Home Services & Painting Solutions provides painting, cleaning, electrical, plumbing and other home maintenance services with a focus on quality and customer satisfaction.</p>
+</div>
 </section>
 
 <section class="areas">
-  <h2>Our Service Locations</h2>
-  <p>Tirunelveli | Tenkasi | Thoothukudi | Madurai | Kanyakumari</p>
+<h2>Our Service Locations</h2>
+<p>Tirunelveli | Tenkasi | Thoothukudi | Madurai | Kanyakumari</p>
 </section>
 
 <section class="booking" id="booking">
-  <div class="section-title">
-    <h2>Book Your Home Service</h2>
-    <p>Fill in your details. Your booking request will open in WhatsApp.</p>
-  </div>
+<div class="section-title">
+<h2>Book Your Home Service</h2>
+<p>Fill in your details. Your booking request will open in WhatsApp.</p>
+</div>
 
-  <form class="booking-form" onsubmit="sendBooking(event)">
-    <label for="customer">Customer Name</label>
-    <input id="customer" type="text" required placeholder="Enter your name">
+<form class="booking-form" onsubmit="sendBooking(event)">
+<label for="customer">Customer Name</label>
+<input id="customer" type="text" required placeholder="Enter your name">
 
-    <label for="mobile">Mobile Number</label>
-    <input id="mobile" type="tel" required pattern="[0-9]{10}" maxlength="10" placeholder="10-digit mobile number">
+<label for="mobile">Mobile Number</label>
+<input id="mobile" type="tel" required pattern="[0-9]{10}" maxlength="10" placeholder="10-digit mobile number">
 
-    <label for="address">Service Address</label>
-    <textarea id="address" required rows="3" placeholder="Enter your address"></textarea>
+<label for="address">Service Address</label>
+<textarea id="address" required rows="3" placeholder="Enter your address"></textarea>
 
-    <label for="service">Select Service</label>
-    <select id="service" required>
-      <option value="">Choose a service</option>
-      <option>Painting Service</option>
-      <option>Electrical Service</option>
-      <option>Plumbing Service</option>
-      <option>Home Cleaning</option>
-      <option>Toilet Cleaning</option>
-      <option>Water Tank Cleaning</option>
-      <option>Sofa Cleaning</option>
-    </select>
+<label for="service">Select Service</label>
+<select id="service" required>
+<option value="">Choose a service</option>
+<option>Painting Service</option>
+<option>Electrical Service</option>
+<option>Plumbing Service</option>
+<option>Home Cleaning</option>
+<option>Toilet Cleaning</option>
+<option>Water Tank Cleaning</option>
+<option>Sofa Cleaning</option>
+</select>
 
-    <label for="date">Preferred Date</label>
-    <input id="date" type="date" required>
+<label for="date">Preferred Date</label>
+<input id="date" type="date" required>
 
-    <button class="btn" type="submit">Send Booking Request on WhatsApp</button>
-  </form>
+<button class="btn" type="submit">Send Booking Request on WhatsApp</button>
+</form>
 </section>
 
 <section id="contact">
-  <div class="about">
-    <h2>Contact Us</h2>
-    <p><strong>Blue Star Home Services & Painting Solutions</strong></p>
-    <p>Call: <a href="tel:8248269675">8248269675</a></p>
-    <p>WhatsApp: <a href="https://wa.me/916381341955">6381341955</a></p>
-    <a class="btn" href="https://wa.me/916381341955">Chat on WhatsApp</a>
-  </div>
+<div class="about">
+<h2>Contact Us</h2>
+<p><strong>Blue Star Home Services & Painting Solutions</strong></p>
+<p>Call: <a href="tel:8248269675">8248269675</a></p>
+<p>WhatsApp: <a href="https://wa.me/916381341955">6381341955</a></p>
+<a class="btn" href="https://wa.me/916381341955">Chat on WhatsApp</a>
+</div>
 </section>
 
 <footer>
-  <p>© 2026 Blue Star Home Services & Painting Solutions</p>
-  <p>Quality Service | Customer Satisfaction</p>
+<p>© 2026 Blue Star Home Services & Painting Solutions</p>
+<p>Quality Service | Customer Satisfaction</p>
 </footer>
 
 <script>
 function chooseService(service) {
-  document.getElementById('service').value = service;
-  document.getElementById('booking').scrollIntoView({behavior:'smooth'});
+document.getElementById('service').value=service;
+document.getElementById('booking').scrollIntoView({behavior:'smooth'});
 }
 
 function sendBooking(event) {
-  event.preventDefault();
+event.preventDefault();
+const name=document.getElementById('customer').value.trim();
+const mobile=document.getElementById('mobile').value.trim();
+const address=document.getElementById('address').value.trim();
+const service=document.getElementById('service').value;
+const date=document.getElementById('date').value;
 
-  const name = document.getElementById('customer').value.trim();
-  const mobile = document.getElementById('mobile').value.trim();
-  const address = document.getElementById('address').value.trim();
-  const service = document.getElementById('service').value;
-  const date = document.getElementById('date').value;
+const message =
+"Hello Blue Star Home Services,\n\n" +
+"I would like to request a booking.\n" +
+"Name: "+name+"\n"+
+"Mobile: "+mobile+"\n"+
+"Address: "+address+"\n"+
+"Service: "+service+"\n"+
+"Preferred Date: "+date;
 
-  const message =
-    "Hello Blue Star Home Services,%0A%0A" +
-    "I would like to request a booking.%0A" +
-    "Name: " + encodeURIComponent(name) + "%0A" +
-    "Mobile: " + encodeURIComponent(mobile) + "%0A" +
-    "Address: " + encodeURIComponent(address) + "%0A" +
-    "Service: " + encodeURIComponent(service) + "%0A" +
-    "Preferred Date: " + encodeURIComponent(date);
-
-  window.open("https://wa.me/916381341955?text=" + message, "_blank");
+window.open("https://wa.me/916381341955?text="+encodeURIComponent(message),"_blank");
 }
 </script>
-
 </body>
 </html>
